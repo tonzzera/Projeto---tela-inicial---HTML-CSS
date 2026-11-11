@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    margin-top: 12rem;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: rgb(224, 219, 219);
+    font-weight: 500;
+}
+
+body {
+    background-color: #121829;
+}
+.border-radius{
+    border-radius: .5rem;
+    border: 1px solid grey;
+}
+.login-wrap {
+    margin-top: 8rem;
+    margin-inline: auto;
+    width: 35rem;
+    font-family: "Poppins", sans-serif;
+    background-color: #20293a;
+
+}
+
+.input-wrap {
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+}
+
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.gap {
+    gap: .5rem;
+}
+
+.margin-top-small {
+    margin-top: 1rem;
+}
+.margin-top-large{
+    margin-top: 3rem;
+}
+
+button {
+    padding-inline: .25rem;
+    padding-block: .75rem;
+    width: 25rem;
+    margin-bottom: 3rem;
+    margin-inline: auto;
+    border-radius: .25rem;
+    border: 1px solid transparent;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(20, 179, 20);
+    color: white;
+}
+
+input {
+    margin-inline: auto;
+    width: 25rem;
+    padding: .5rem;
+    border-radius: .25rem;
+    border: 1px solid transparent;
+
+}
+
+label {
+    color: rgb(177, 173, 173);
+    font-size: small;
+}
