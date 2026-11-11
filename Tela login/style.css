@@ -15,10 +15,12 @@ header h1 {
 body {
     background-color: #121829;
 }
-.border-radius{
+
+.border-radius {
     border-radius: .5rem;
     border: 1px solid grey;
 }
+
 .login-wrap {
     margin-top: 8rem;
     margin-inline: auto;
@@ -32,6 +34,8 @@ body {
     display: flex;
     flex-direction: column;
     margin-inline: auto;
+
+
 }
 
 
@@ -47,7 +51,8 @@ body {
 .margin-top-small {
     margin-top: 1rem;
 }
-.margin-top-large{
+
+.margin-top-large {
     margin-top: 3rem;
 }
 
@@ -69,8 +74,31 @@ input {
     width: 25rem;
     padding: .5rem;
     border-radius: .25rem;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
 
+
+
+}
+
+#login:focus {
+    outline: none;
+    border: 2px solid rgb(241, 92, 38);
+    color: rgb(241, 92, 38);
+
+}
+
+#password:focus {
+    outline: none;
+    border: 2px solid rgb(241, 92, 38);
+    color: rgb(241, 92, 38);
+}
+
+.input-wrap:focus-within label {
+    color: rgb(241, 92, 38);
+}
+
+button:hover {
+    filter: brightness(0.9)
 }
 
 label {
